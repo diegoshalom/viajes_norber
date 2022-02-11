@@ -1,0 +1,9 @@
+ejectutar esto:
+sudo crontab -e
+
+y agregar esto:
+
+47 * * * *   /home/pi/share/REPOS/viajes\ norber/myscript.sh
+
+para ver lo que hay en el log de crontab
+grep CRON /var/log/syslog
